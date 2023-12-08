@@ -1,7 +1,60 @@
-﻿@page "/about"
+﻿@page "/"
+@inject HttpClient Http
 
-<PageTitle>About</PageTitle>
+<PageTitle>Links</PageTitle>
 
-<h1>Hello, world!</h1>
+<h1>Links</h1>
 
-Welcome to your new app.
+<p>What are you looking for?</p>
+
+@if (forecasts == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div >
+        <input @bind-value="SearchText" @bind-value:event="oninput" placeholder="Search" />
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Type</th>
+                <th>Title</th>
+                <th>URL</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var forecast in filteredforecasts)
+            {
+                <tr>
+                    <td>@forecast.Type</td>
+                    <td>@forecast.Title</td>
+                    <td>@forecast.Url</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private WeatherForecast[]? forecasts;
+
+    public string SearchText = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
+    }
+
+    WeatherForecast[]? filteredforecasts => forecasts?.Where(
+        f => f.Title?.Contains(SearchText, StringComparison.OrdinalIgnoreCase) ?? false).ToArray();
+
+    public class WeatherForecast
+    {
+        public string? Type { get; set; }
+        public string? Title { get; set; }
+
+        public string? Url { get; set; }
+    }
+}
