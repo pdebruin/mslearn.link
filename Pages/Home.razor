@@ -3,9 +3,9 @@
 
 <PageTitle>Links</PageTitle>
 
-<h1>Links</h1>
+<h1>Link</h1>
 
-<p>What are you looking for?</p>
+<p>What link are you looking for?</p>
 
 @if (forecasts == null)
 {
@@ -19,18 +19,18 @@ else
     <table class="table">
         <thead>
             <tr>
-                <th>Type</th>
                 <th>Title</th>
                 <th>URL</th>
+                <th>Type</th>
             </tr>
         </thead>
         <tbody>
             @foreach (var forecast in filteredforecasts)
             {
                 <tr>
-                    <td>@forecast.Type</td>
                     <td>@forecast.Title</td>
-                    <td>@forecast.Url</td>
+                    <td><a href="@forecast.Url" target="_blank">@forecast.Url</a></td>
+                    <td>@forecast.Type</td>
                 </tr>
             }
         </tbody>
