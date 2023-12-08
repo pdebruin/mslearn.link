@@ -32,19 +32,19 @@
   {
     "type": "Documentation",
     "title": "OpenAI Service documentation",
-    "url": "https://learn.microsoft.com/azure/ai-services/openai/overview",
+    "url": "https://learn.microsoft.com/azure/ai-services/openai/",
     "category": "AI"
   },
   {
     "type": "Documentation",
     "title": "Speech service documentation",
-    "url": "https://learn.microsoft.com/azure/ai-services/speech-service/overview",
+    "url": "https://learn.microsoft.com/azure/ai-services/speech-service/",
     "category": "AI"
   },
   {
     "type": "Documentation",
     "title": "Language service documentation",
-    "url": "https://learn.microsoft.com/azure/ai-services/language-service/overview",
+    "url": "https://learn.microsoft.com/azure/ai-services/language-service/",
     "category": "AI"
   },
   {
@@ -56,13 +56,13 @@
   {
     "type": "Documentation",
     "title": "Computer vision documentation",
-    "url": "https://learn.microsoft.com/azure/ai-services/computer-vision/overview",
+    "url": "https://learn.microsoft.com/azure/ai-services/computer-vision/",
     "category": "AI"
   },
   {
     "type": "Documentation",
     "title": "Custom vision documentation",
-    "url": "https://learn.microsoft.com/azure/ai-services/custom-vision-service/overview",
+    "url": "https://learn.microsoft.com/azure/ai-services/custom-vision-service/",
     "category": "AI"
   },
   {
@@ -74,13 +74,25 @@
   {
     "type": "Documentation",
     "title": "Bot framework composer documentation",
-    "url": "https://learn.microsoft.com/composer/introduction",
+    "url": "https://learn.microsoft.com/composer/",
     "category": "AI"
   },
   {
     "type": "Documentation",
     "title": "Document intelligence documentation",
-    "url": "https://learn.microsoft.com/azure/ai-services/document-intelligence/overview",
+    "url": "https://learn.microsoft.com/azure/ai-services/document-intelligence/",
+    "category": "AI"
+  },
+  {
+    "type": "Documentation",
+    "title": "Search service documentation",
+    "url": "https://learn.microsoft.com/azure/search",
+    "category": "AI"
+  },
+  {
+    "type": "Documentation",
+    "title": "Video indexer documentation",
+    "url": "https://learn.microsoft.com/en-us/azure/azure-video-indexer/",
     "category": "AI"
   },
   {
