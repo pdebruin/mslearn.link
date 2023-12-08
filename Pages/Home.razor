@@ -1,13 +1,14 @@
 ﻿@page "/"
 @inject HttpClient Http
+<!-- @using Microsoft.AspNetCore.Components.QuickGrid -->
 
 <PageTitle>Links</PageTitle>
 
-<h1>Link</h1>
+<h1>Find your MS Learn link</h1>
 
 <p>What link are you looking for?</p>
 
-@if (forecasts == null)
+@if (links == null)
 {
     <p><em>Loading...</em></p>
 }
@@ -22,15 +23,17 @@ else
                 <th>Title</th>
                 <th>URL</th>
                 <th>Type</th>
+                <th>Category</th>
             </tr>
         </thead>
         <tbody>
-            @foreach (var forecast in filteredforecasts)
+            @foreach (var link in filteredlinks)
             {
                 <tr>
-                    <td>@forecast.Title</td>
-                    <td><a href="@forecast.Url" target="_blank">@forecast.Url</a></td>
-                    <td>@forecast.Type</td>
+                    <td>@link.Title</td>
+                    <td><a href="@link.Url" target="_blank">@link.Url</a></td>
+                    <td>@link.Type</td>
+                    <td>@link.Category</td>
                 </tr>
             }
         </tbody>
@@ -38,23 +41,25 @@ else
 }
 
 @code {
-    private WeatherForecast[]? forecasts;
+    private Link[]? links;
 
     public string SearchText = "";
 
     protected override async Task OnInitializedAsync()
     {
-        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
+        links = await Http.GetFromJsonAsync<Link[]>("data/links.json");
     }
 
-    WeatherForecast[]? filteredforecasts => forecasts?.Where(
+    @* WeatherForecast[]? filteredforecasts => forecasts?.Where(
+        f => f.Title?.Contains(SearchText, StringComparison.OrdinalIgnoreCase) ?? false).ToArray(); *@
+    Link[]? filteredlinks => links?.Where(
         f => f.Title?.Contains(SearchText, StringComparison.OrdinalIgnoreCase) ?? false).ToArray();
 
-    public class WeatherForecast
+    public class Link
     {
         public string? Type { get; set; }
         public string? Title { get; set; }
-
         public string? Url { get; set; }
+        public string? Category { get; set; }
     }
 }

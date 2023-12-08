@@ -1,0 +1,92 @@
+﻿[
+  {
+    "type": "Documentation",
+    "title": "Static web apps documentation",
+    "url": "https://learn.microsoft.com/azure/static-web-apps/",
+    "category": "Web"
+  },
+  {
+    "type": "Documentation",
+    "title": "App service documentation",
+    "url": "https://learn.microsoft.com/azure/app-service/",
+    "category": "Web"
+  },
+  {
+    "type": "Training",
+    "title": "Implement Azure app service web apps learning path",
+    "url": "https://learn.microsoft.com/training/paths/create-azure-app-service-web-apps/",
+    "category": "Web"
+  },
+  {
+    "type": "Training",
+    "title": "Azure static web apps learning path",
+    "url": "https://learn.microsoft.com/training/paths/azure-static-web-apps/",
+    "category": "Web"
+  },
+  {
+    "type": "Training",
+    "title": "Develop an ASP.NET Core web app that consumes an API applied skills challenge",
+    "url": "https://learn.microsoft.com/credentials/applied-skills/develop-an-aspnet-core-web-app-that-consumes-an-api/",
+    "category": "Web"
+  },
+  {
+    "type": "Documentation",
+    "title": "OpenAI Service documentation",
+    "url": "https://learn.microsoft.com/azure/ai-services/openai/overview",
+    "category": "AI"
+  },
+  {
+    "type": "Documentation",
+    "title": "Speech service documentation",
+    "url": "https://learn.microsoft.com/azure/ai-services/speech-service/overview",
+    "category": "AI"
+  },
+  {
+    "type": "Documentation",
+    "title": "Language service documentation",
+    "url": "https://learn.microsoft.com/azure/ai-services/language-service/overview",
+    "category": "AI"
+  },
+  {
+    "type": "Documentation",
+    "title": "Translator documentation",
+    "url": "https://learn.microsoft.com/azure/ai-services/translator/",
+    "category": "AI"
+  },
+  {
+    "type": "Documentation",
+    "title": "Computer vision documentation",
+    "url": "https://learn.microsoft.com/azure/ai-services/computer-vision/overview",
+    "category": "AI"
+  },
+  {
+    "type": "Documentation",
+    "title": "Custom vision documentation",
+    "url": "https://learn.microsoft.com/azure/ai-services/custom-vision-service/overview",
+    "category": "AI"
+  },
+  {
+    "type": "Documentation",
+    "title": "Content safety documentation",
+    "url": "https://learn.microsoft.com/azure/ai-services/content-safety/",
+    "category": "AI"
+  },
+  {
+    "type": "Documentation",
+    "title": "Bot framework composer documentation",
+    "url": "https://learn.microsoft.com/composer/introduction",
+    "category": "AI"
+  },
+  {
+    "type": "Documentation",
+    "title": "Document intelligence documentation",
+    "url": "https://learn.microsoft.com/azure/ai-services/document-intelligence/overview",
+    "category": "AI"
+  },
+  {
+    "type": "Architecture",
+    "title": "Web applications architecture design",
+    "url": "https://learn.microsoft.com/azure/architecture/web-apps/",
+    "category": "Web"
+  }
+]
