@@ -1,0 +1,22 @@
+﻿[
+  {
+    "title": "Static web apps documentation",
+    "url": "https://learn.microsoft.com/azure/static-web-apps/"
+  },
+  {
+    "title": "App service documentation",
+    "url": "https://learn.microsoft.com/azure/app-service/"
+  },
+  {
+    "title": "2022-01-08",
+    "url": "Freezing"
+  },
+  {
+    "title": "2022-01-09",
+    "url": "Balmy"
+  },
+  {
+    "title": "2022-01-10",
+    "url": "Chilly"
+  }
+]
