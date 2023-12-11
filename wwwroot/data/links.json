@@ -24,7 +24,25 @@
     "category": "Web"
   },
   {
-    "type": "Training",
+    "type": "Credential",
+    "title": "Build a natural language processing solution with Azure AI Language",
+    "url": "https://learn.microsoft.com/credentials/applied-skills/build-natural-language-solution-azure-ai/",
+    "category": "AI"
+  },
+  {
+    "type": "Credential",
+    "title": "Create an intelligent document processing solution with Azure AI Document Intelligence",
+    "url": "https://learn.microsoft.com/credentials/applied-skills/create-intelligent-document-solution-azure-ai/",
+    "category": "AI"
+  },
+  {
+    "type": "Credential",
+    "title": "Build an Azure AI Vision solution",
+    "url": "https://learn.microsoft.com/credentials/applied-skills/applied-skills/build-azure-ai-vision-solution/",
+    "category": "AI"
+  },
+  {
+    "type": "Credential",
     "title": "Develop an ASP.NET Core web app that consumes an API applied skills challenge",
     "url": "https://learn.microsoft.com/credentials/applied-skills/develop-an-aspnet-core-web-app-that-consumes-an-api/",
     "category": "Web"
@@ -92,7 +110,7 @@
   {
     "type": "Documentation",
     "title": "Video indexer documentation",
-    "url": "https://learn.microsoft.com/en-us/azure/azure-video-indexer/",
+    "url": "https://learn.microsoft.com/azure/azure-video-indexer/",
     "category": "AI"
   },
   {
@@ -100,5 +118,113 @@
     "title": "Web applications architecture design",
     "url": "https://learn.microsoft.com/azure/architecture/web-apps/",
     "category": "Web"
+  },
+  {
+    "type":"Credential",
+    "title":"Exam AZ-900: Microsoft Azure Fundamentals",
+    "url":"https://learn.microsoft.com/credentials/certifications/exams/az-900/",
+    "category":"Azure"
+  },
+  {
+    "type":"Credential",
+    "title":"Exam AI-900: Microsoft Azure AI Fundamentals",
+    "url":"https://learn.microsoft.com/credentials/certifications/exams/ai-900/",
+    "category":"Azure"
+  },
+  {
+    "type": "Training",
+    "title": "Microsoft Azure Fundamentals: Describe cloud concepts",
+    "url": "https://learn.microsoft.com/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/",
+    "category": "Azure"
+  },
+  {
+    "type": "Training",
+    "title": "Microsoft Azure Fundamentals: Describe Azure architecture and services",
+    "url": "https://learn.microsoft.com/training/paths/azure-fundamentals-describe-azure-architecture-services/",
+    "category": "Azure"
+  },
+  {
+    "type": "Training",
+    "title": "Microsoft Azure Fundamentals: Describe Azure management and governance",
+    "url": "https://learn.microsoft.com/training/paths/describe-azure-management-governance/",
+    "category": "Azure"
+  },
+  {
+    "type": "Training",
+    "title": "Microsoft Azure AI Fundamentals: AI Overview",
+    "url": "https://learn.microsoft.com/training/paths/get-started-with-artificial-intelligence-on-azure/",
+    "category": "AI"
+  },
+  {
+    "type": "Training",
+    "title": "Microsoft Azure AI Fundamentals: Computer Vision",
+    "url": "https://learn.microsoft.com/training/paths/explore-computer-vision-microsoft-azure/",
+    "category": "AI"
+  },
+  {
+    "type": "Training",
+    "title": "Microsoft Azure AI Fundamentals: Natural Language Processing",
+    "url": "https://learn.microsoft.com/training/paths/explore-natural-language-processing/",
+    "category": "AI"
+  },
+  {
+    "type": "Training",
+    "title": "Microsoft Azure AI Fundamentals: Document Intelligence and Knowledge Mining",
+    "url": "https://learn.microsoft.com/training/paths/document-intelligence-knowledge-mining/",
+    "category": "AI"
+  },
+  {
+    "type": "Training",
+    "title": "Microsoft Azure AI Fundamentals: Generative AI",
+    "url": "https://learn.microsoft.com/en-us/training/paths/introduction-generative-ai/",
+    "category": "AI"
+  },
+  {
+    "type":"Credential",
+    "title":"Exam AI-102: Designing and Implementing a Microsoft Azure AI Solution",
+    "url":"https://learn.microsoft.com/credentials/certifications/exams/ai-102/",
+    "category":"AI"
+  },
+  {
+    "type": "Training",
+    "title": "Microsoft AI Engineer: Get started with Azure AI Services",
+    "url": "https://learn.microsoft.com/training/paths/get-started-azure-ai/",
+    "category": "AI"
+  },
+  {
+    "type": "Training",
+    "title": "Microsoft AI Engineer: Develop decision support solutions with Azure AI Services",
+    "url": "https://learn.microsoft.com/training/paths/develop-decision-support/",
+    "category": "AI"
+  },
+  {
+    "type": "Training",
+    "title": "Microsoft AI Engineer: Create computer vision solutions with Azure AI Vision",
+    "url": "https://learn.microsoft.com/en-us/training/paths/create-computer-vision-solutions-azure-ai/",
+    "category": "AI"
+  },
+  {
+    "type": "Training",
+    "title": "Microsoft AI Engineer: Develop natural language processing solutions with Azure AI Services",
+    "url": "https://learn.microsoft.com/training/paths/develop-language-solutions-azure-ai/",
+    "category": "AI"
+  },
+  {
+    "type": "Training",
+    "title": "Microsoft AI Engineer: Implement knowledge mining with Azure Cognitive Search",
+    "url": "https://learn.microsoft.com/training/paths/implement-knowledge-mining-azure-cognitive-search/",
+    "category": "AI"
+  },
+  {
+    "type": "Training",
+    "title": "Microsoft AI Engineer: Develop solutions with Azure AI Document Intelligence",
+    "url": "https://learn.microsoft.com/training/paths/extract-data-from-forms-document-intelligence/",
+    "category": "AI"
+  },
+  {
+    "type": "Training",
+    "title": "Microsoft AI Engineer: Develop Generative AI solutions with Azure OpenAI Service",
+    "url": "https://learn.microsoft.com/training/paths/develop-ai-solutions-azure-openai/",
+    "category": "AI"
   }
 ]

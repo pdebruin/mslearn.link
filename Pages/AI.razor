@@ -1,0 +1,57 @@
+﻿@page "/ai"
+@inject HttpClient Http
+<!-- @using Microsoft.AspNetCore.Components.QuickGrid -->
+
+<h1>Find your AI link</h1>
+
+<p>What link are you looking for?</p>
+
+@if (links == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div >
+        <input @bind-value="SearchText" @bind-value:event="oninput" placeholder="Search" />
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var link in filteredlinks)
+            {
+                <tr>
+                    <td><a href="@link.Url" target="_blank">@link.Title</a></td>
+                    <td>@link.Type</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private Link[]? links;
+
+    public string SearchText = "";
+    public string category = "AI";
+
+    protected override async Task OnInitializedAsync()
+    {
+        links = await Http.GetFromJsonAsync<Link[]>("data/links.json");
+    }
+    Link[]? filteredlinks => links?.Where(
+        f => f.Title.Contains(SearchText, StringComparison.OrdinalIgnoreCase) && f.Category.Contains(category, StringComparison.OrdinalIgnoreCase)).ToArray();
+
+    public class Link
+    {
+        public string? Type { get; set; }
+        public string? Title { get; set; }
+        public string? Url { get; set; }
+        public string? Category { get; set; }
+    }
+}
