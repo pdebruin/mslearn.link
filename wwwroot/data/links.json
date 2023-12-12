@@ -3,25 +3,31 @@
     "type": "Documentation",
     "title": "Static web apps documentation",
     "url": "https://learn.microsoft.com/azure/static-web-apps/",
-    "category": "Web"
+    "category": "Web, Cloud native"
   },
   {
     "type": "Documentation",
     "title": "App service documentation",
     "url": "https://learn.microsoft.com/azure/app-service/",
-    "category": "Web"
+    "category": "Web, Cloud native"
   },
   {
     "type": "Training",
     "title": "Implement Azure app service web apps learning path",
     "url": "https://learn.microsoft.com/training/paths/create-azure-app-service-web-apps/",
-    "category": "Web"
+    "category": "Web, Cloud native"
   },
   {
     "type": "Training",
     "title": "Azure static web apps learning path",
     "url": "https://learn.microsoft.com/training/paths/azure-static-web-apps/",
     "category": "Web"
+  },
+  {
+    "type": "Hub",
+    "title": "AI learning and community hub",
+    "url": "https://learn.microsoft.com/ai/",
+    "category": "AI"
   },
   {
     "type": "Credential",
@@ -132,54 +138,6 @@
     "category":"AI"
   },
   {
-    "type": "Training",
-    "title": "Microsoft Azure Fundamentals: Describe cloud concepts",
-    "url": "https://learn.microsoft.com/training/paths/microsoft-azure-fundamentals-describe-cloud-concepts/",
-    "category": "Azure"
-  },
-  {
-    "type": "Training",
-    "title": "Microsoft Azure Fundamentals: Describe Azure architecture and services",
-    "url": "https://learn.microsoft.com/training/paths/azure-fundamentals-describe-azure-architecture-services/",
-    "category": "Azure"
-  },
-  {
-    "type": "Training",
-    "title": "Microsoft Azure Fundamentals: Describe Azure management and governance",
-    "url": "https://learn.microsoft.com/training/paths/describe-azure-management-governance/",
-    "category": "Azure"
-  },
-  {
-    "type": "Training",
-    "title": "Microsoft Azure AI Fundamentals: AI Overview",
-    "url": "https://learn.microsoft.com/training/paths/get-started-with-artificial-intelligence-on-azure/",
-    "category": "AI"
-  },
-  {
-    "type": "Training",
-    "title": "Microsoft Azure AI Fundamentals: Computer Vision",
-    "url": "https://learn.microsoft.com/training/paths/explore-computer-vision-microsoft-azure/",
-    "category": "AI"
-  },
-  {
-    "type": "Training",
-    "title": "Microsoft Azure AI Fundamentals: Natural Language Processing",
-    "url": "https://learn.microsoft.com/training/paths/explore-natural-language-processing/",
-    "category": "AI"
-  },
-  {
-    "type": "Training",
-    "title": "Microsoft Azure AI Fundamentals: Document Intelligence and Knowledge Mining",
-    "url": "https://learn.microsoft.com/training/paths/document-intelligence-knowledge-mining/",
-    "category": "AI"
-  },
-  {
-    "type": "Training",
-    "title": "Microsoft Azure AI Fundamentals: Generative AI",
-    "url": "https://learn.microsoft.com/en-us/training/paths/introduction-generative-ai/",
-    "category": "AI"
-  },
-  {
     "type":"Credential",
     "title":"Exam AI-102: Designing and Implementing a Microsoft Azure AI Solution",
     "url":"https://learn.microsoft.com/credentials/certifications/exams/ai-102/",
@@ -187,44 +145,134 @@
   },
   {
     "type": "Training",
-    "title": "Microsoft AI Engineer: Get started with Azure AI Services",
+    "title": "Get started with Azure AI Services",
     "url": "https://learn.microsoft.com/training/paths/get-started-azure-ai/",
     "category": "AI"
   },
   {
     "type": "Training",
-    "title": "Microsoft AI Engineer: Develop decision support solutions with Azure AI Services",
+    "title": "Develop decision support solutions with Azure AI Services",
     "url": "https://learn.microsoft.com/training/paths/develop-decision-support/",
     "category": "AI"
   },
   {
     "type": "Training",
-    "title": "Microsoft AI Engineer: Create computer vision solutions with Azure AI Vision",
+    "title": "Create computer vision solutions with Azure AI Vision",
     "url": "https://learn.microsoft.com/en-us/training/paths/create-computer-vision-solutions-azure-ai/",
     "category": "AI"
   },
   {
     "type": "Training",
-    "title": "Microsoft AI Engineer: Develop natural language processing solutions with Azure AI Services",
+    "title": "Develop natural language processing solutions with Azure AI Services",
     "url": "https://learn.microsoft.com/training/paths/develop-language-solutions-azure-ai/",
     "category": "AI"
   },
   {
     "type": "Training",
-    "title": "Microsoft AI Engineer: Implement knowledge mining with Azure Cognitive Search",
+    "title": "Implement knowledge mining with Azure Cognitive Search",
     "url": "https://learn.microsoft.com/training/paths/implement-knowledge-mining-azure-cognitive-search/",
     "category": "AI"
   },
   {
     "type": "Training",
-    "title": "Microsoft AI Engineer: Develop solutions with Azure AI Document Intelligence",
+    "title": "Develop solutions with Azure AI Document Intelligence",
     "url": "https://learn.microsoft.com/training/paths/extract-data-from-forms-document-intelligence/",
     "category": "AI"
   },
   {
     "type": "Training",
-    "title": "Microsoft AI Engineer: Develop Generative AI solutions with Azure OpenAI Service",
+    "title": "Develop Generative AI solutions with Azure OpenAI Service",
     "url": "https://learn.microsoft.com/training/paths/develop-ai-solutions-azure-openai/",
     "category": "AI"
+  },
+  {
+    "type": "Documentation",
+    "title": "Kubernetes service documentation",
+    "url": "https://learn.microsoft.com/azure/aks/",
+    "category": "Cloud native"
+  },
+  {
+    "type": "Documentation",
+    "title": "Container apps documentation",
+    "url": "https://learn.microsoft.com/azure/container-apps/",
+    "category": "Cloud native"
+  },
+  {
+    "type": "Documentation",
+    "title": "Functions documentation",
+    "url": "https://learn.microsoft.com/azure/azure-functions/",
+    "category": "Cloud native"
+  },
+  {
+    "type": "Documentation",
+    "title": "Virtual machines documentation",
+    "url": "https://learn.microsoft.com/azure/virtual-machines/",
+    "category": "Infrastructure"
+  },
+  {
+    "type": "Documentation",
+    "title": "Virtual machine scale sets documentation",
+    "url": "https://learn.microsoft.com/azure/virtual-machine-scale-sets/",
+    "category": "Infrastructure"
+  },
+  {
+    "type": "Documentation",
+    "title": "Container instances documentation",
+    "url": "https://learn.microsoft.com/azure/container-instances/",
+    "category": "Cloud native"
+  },
+  {
+    "type": "Q&A",
+    "title": "AI services answers",
+    "url": "https://learn.microsoft.com/answers/tags/441/ai-services",
+    "category": "AI"
+  },
+  {
+    "type": "Q&A",
+    "title": "OpenAI service answers",
+    "url": "https://learn.microsoft.com/answers/tags/387/azure-openai",
+    "category": "AI"
+  },
+  {
+    "type": "Q&A",
+    "title": "App service answers",
+    "url": "https://learn.microsoft.com/answers/tags/436/azure-app-service",
+    "category": "Web, Cloud native"
+  },
+  {
+    "type": "Q&A",
+    "title": "Functions answers",
+    "url": "https://learn.microsoft.com/answers/tags/87/azure-functions",
+    "category": "Web, Cloud native"
+  },
+  {
+    "type": "Shows",
+    "title": "Azure Friday",
+    "url": "https://learn.microsoft.com/shows/azure-friday/",
+    "category": "Web, Cloud native, AI"
+  },
+  {
+    "type": "Shows",
+    "title": "Learn Live",
+    "url": "https://learn.microsoft.com/shows/learn-live/",
+    "category": "Web, Cloud native, AI"
+  },
+  {
+    "type": "Shows",
+    "title": "AI Show",
+    "url": "https://learn.microsoft.com/shows/ai-show/",
+    "category": "AI"
+  },
+  {
+    "type": "Shows",
+    "title": "Open at Microsoft",
+    "url": "https://learn.microsoft.com/shows/open-at-microsoft/",
+    "category": "Cloud native"
+  },
+  {
+    "type": "Documentation",
+    "title": "Contributor guides",
+    "url": "https://review.learn.microsoft.com/help/",
+    "category": ""
   }
 ]

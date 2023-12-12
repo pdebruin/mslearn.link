@@ -1,11 +1,8 @@
-﻿@page "/"
+﻿@page "/cloudnative"
 @inject HttpClient Http
 <!-- @using Microsoft.AspNetCore.Components.QuickGrid -->
-@using BlazorApplicationInsights
-@using BlazorApplicationInsights.Interfaces
-@using BlazorApplicationInsights.Models
 
-<h1>Find your MS Learn link</h1>
+<h1>Find your cloud native link</h1>
 
 <p>What link are you looking for?</p>
 
@@ -22,19 +19,15 @@ else
         <thead>
             <tr>
                 <th>Title</th>
-                <th>URL</th>
                 <th>Type</th>
-                <th>Category</th>
             </tr>
         </thead>
         <tbody>
             @foreach (var link in filteredlinks)
             {
                 <tr>
-                    <td>@link.Title</td>
-                    <td><a href="@link.Url" target="_blank">@link.Url</a></td>
+                    <td><a href="@link.Url" target="_blank">@link.Title</a></td>
                     <td>@link.Type</td>
-                    <td>@link.Category</td>
                 </tr>
             }
         </tbody>
@@ -42,20 +35,17 @@ else
 }
 
 @code {
-    
-    [Inject] private IApplicationInsights AppInsights { get; set; }
     private Link[]? links;
 
     public string SearchText = "";
+    public string category = "Cloud native";
 
     protected override async Task OnInitializedAsync()
     {
         links = await Http.GetFromJsonAsync<Link[]>("data/links.json");
-        await AppInsights.TrackEvent(new EventTelemetry() { Name = "Home initialized" });
     }
-
     Link[]? filteredlinks => links?.Where(
-        f => f.Title?.Contains(SearchText, StringComparison.OrdinalIgnoreCase) ?? false).ToArray();
+        f => f.Title.Contains(SearchText, StringComparison.OrdinalIgnoreCase) && f.Category.Contains(category, StringComparison.OrdinalIgnoreCase)).ToArray();
 
     public class Link
     {

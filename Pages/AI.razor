@@ -1,6 +1,9 @@
 ﻿@page "/ai"
 @inject HttpClient Http
 <!-- @using Microsoft.AspNetCore.Components.QuickGrid -->
+@using BlazorApplicationInsights
+@using BlazorApplicationInsights.Interfaces
+@using BlazorApplicationInsights.Models
 
 <h1>Find your AI link</h1>
 
@@ -35,6 +38,7 @@ else
 }
 
 @code {
+    [Inject] private IApplicationInsights AppInsights { get; set; }
     private Link[]? links;
 
     public string SearchText = "";
@@ -43,6 +47,7 @@ else
     protected override async Task OnInitializedAsync()
     {
         links = await Http.GetFromJsonAsync<Link[]>("data/links.json");
+        await AppInsights.TrackEvent(new EventTelemetry() { Name = "AI initialized" });
     }
     Link[]? filteredlinks => links?.Where(
         f => f.Title.Contains(SearchText, StringComparison.OrdinalIgnoreCase) && f.Category.Contains(category, StringComparison.OrdinalIgnoreCase)).ToArray();
