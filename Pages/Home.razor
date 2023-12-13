@@ -21,6 +21,7 @@ else
     <table class="table">
         <thead>
             <tr>
+                <th>Product</th>
                 <th>Title</th>
                 <th>URL</th>
                 <th>Type</th>
@@ -31,6 +32,7 @@ else
             @foreach (var link in filteredlinks)
             {
                 <tr>
+                    <td><img height="30" width="30" src="@link.Image" /></td>
                     <td>@link.Title</td>
                     <td><a href="@link.Url" target="_blank">@link.Url</a></td>
                     <td>@link.Type</td>
@@ -56,12 +58,4 @@ else
 
     Link[]? filteredlinks => links?.Where(
         f => f.Title?.Contains(SearchText, StringComparison.OrdinalIgnoreCase) ?? false).ToArray();
-
-    public class Link
-    {
-        public string? Type { get; set; }
-        public string? Title { get; set; }
-        public string? Url { get; set; }
-        public string? Category { get; set; }
-    }
 }
