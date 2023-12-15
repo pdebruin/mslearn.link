@@ -29,6 +29,7 @@ main {
 
     .top-row ::deep a:hover, .top-row ::deep .btn-link:hover {
         text-decoration: underline;
+        color: #161616;
     }
 
     .top-row ::deep a:first-child {

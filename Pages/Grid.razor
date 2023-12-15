@@ -1,0 +1,54 @@
+﻿@page "/grid"
+@inject HttpClient Http
+@using Microsoft.AspNetCore.Components.QuickGrid 
+@using BlazorApplicationInsights
+@using BlazorApplicationInsights.Interfaces
+@using BlazorApplicationInsights.Models
+
+<h1>Find your MS Learn link</h1>
+
+<p>What link are you looking for?</p>
+
+@if (links == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div >
+        <input @bind-value="SearchText" @bind-value:event="oninput" placeholder="Search" />
+    </div>
+
+    <div class="grid">
+        <QuickGrid Items="@queryablelinks">
+            <TemplateColumn Title="Title" Sortable="true" SortBy="@templateSort" Class="title">
+                <a href="@context.Url" target="_blank">
+                    <img class="flag" src="@(context.Image)" /> @(context.Title)
+                </a>
+            </TemplateColumn>
+            <PropertyColumn Property="@(p => p.Type)" Sortable="true" />
+            <PropertyColumn Property="@(p => p.Category)" Sortable="true" />
+        </QuickGrid>
+    </div>
+}
+
+
+@code {
+    
+    [Inject] private IApplicationInsights AppInsights { get; set; }
+    private Link[]? links;
+    GridSort<Link> templateSort = GridSort<Link>.ByAscending(p => p.Title);
+
+    public string SearchText = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        links = await Http.GetFromJsonAsync<Link[]>("data/links.json");
+        await AppInsights.TrackEvent(new EventTelemetry() { Name = "Home initialized" });
+    }
+
+    Link[]? filteredlinks => links?.Where(
+        f => f.Title?.Contains(SearchText, StringComparison.OrdinalIgnoreCase) ?? false).ToArray();
+
+    IQueryable<Link>? queryablelinks => filteredlinks?.AsQueryable();
+}
