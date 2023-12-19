@@ -40,3 +40,16 @@ a:hover {
     text-decoration: underline;
     color: #161616;
 }
+/*
+.quickgrid .col-header-content { 
+    border-bottom: 1px solid #000;
+}
+
+.quickgrid ::deep table {
+    min-width: 100%;
+}
+
+.quickgrid > tbody > tr > td {
+    border-bottom: 1px solid #ccc;
+    min-width: 100%;
+} */

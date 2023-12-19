@@ -19,11 +19,14 @@ else
         <input @bind-value="SearchText" @bind-value:event="oninput" placeholder="Search" />
     </div>
 
-    <div class="grid">
+    <div class="table">
         <QuickGrid Items="@queryablelinks">
-            <TemplateColumn Title="Title" Sortable="true" SortBy="@templateSort" Class="title">
+            <TemplateColumn Title="Title" Sortable="true" SortBy="@templateSort">
+                <a href="./grid?product=@context.Product">
+                    <img height="30" width="30" class="flag" src="@(context.Image)" />
+                </a>
                 <a href="@context.Url" target="_blank">
-                    <img class="flag" src="@(context.Image)" /> @(context.Title)
+                     @(context.Title)
                 </a>
             </TemplateColumn>
             <PropertyColumn Property="@(p => p.Type)" Sortable="true" />
@@ -36,18 +39,25 @@ else
 @code {
     
     [Inject] private IApplicationInsights AppInsights { get; set; }
+
+    [Parameter]
+    [SupplyParameterFromQuery(Name = "product")] 
+    public string? Product { get; set; } 
+
     private Link[]? links;
     GridSort<Link> templateSort = GridSort<Link>.ByAscending(p => p.Title);
-
     public string SearchText = "";
 
     protected override async Task OnInitializedAsync()
     {
         links = await Http.GetFromJsonAsync<Link[]>("data/links.json");
-        await AppInsights.TrackEvent(new EventTelemetry() { Name = "Home initialized" });
+        await AppInsights.TrackEvent(new EventTelemetry() { Name = "Grid initialized" });
     }
 
-    Link[]? filteredlinks => links?.Where(
+    Link[]? productlinks => links?.Where(
+        f => f.Title?.Contains(Product, StringComparison.OrdinalIgnoreCase) ?? false).ToArray();
+
+    Link[]? filteredlinks => productlinks?.Where(
         f => f.Title?.Contains(SearchText, StringComparison.OrdinalIgnoreCase) ?? false).ToArray();
 
     IQueryable<Link>? queryablelinks => filteredlinks?.AsQueryable();
