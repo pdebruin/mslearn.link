@@ -47,6 +47,9 @@ public class Link
                 case "Computer vision":
                     result = "./images/00792-icon-service-Computer-Vision.svg";
                     break;
+                case "Python":
+                    result = "./images/python.jpg";
+                    break;
                 default:
                     result = "link-45deg.svg";
                     break;

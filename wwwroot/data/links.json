@@ -2,117 +2,117 @@
   {
     "type": "Documentation",
     "title": "Static web apps documentation",
-    "url": "https://learn.microsoft.com/azure/static-web-apps/",
+    "url": "https://learn.microsoft.com/azure/static-web-apps/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "Web, Cloud native",
     "product": "Static web apps"
   },
   {
     "type": "Documentation",
     "title": "App service documentation",
-    "url": "https://learn.microsoft.com/azure/app-service/",
+    "url": "https://learn.microsoft.com/azure/app-service/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "Web, Cloud native",
     "product": "App service"
   },
   {
     "type": "Training",
     "title": "Implement Azure app service web apps learning path",
-    "url": "https://learn.microsoft.com/training/paths/create-azure-app-service-web-apps/",
+    "url": "https://learn.microsoft.com/training/paths/create-azure-app-service-web-apps/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "Web, Cloud native",
     "product": "App service"
   },
   {
     "type": "Training",
     "title": "Azure static web apps learning path",
-    "url": "https://learn.microsoft.com/training/paths/azure-static-web-apps/",
+    "url": "https://learn.microsoft.com/training/paths/azure-static-web-apps/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "Web",
     "product": "Static web apps"
   },
   {
     "type": "Hub",
     "title": "AI learning and community hub",
-    "url": "https://learn.microsoft.com/ai/",
+    "url": "https://learn.microsoft.com/ai/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI"
   },
   {
     "type": "Credential",
     "title": "Build a natural language processing solution with Azure AI Language",
-    "url": "https://learn.microsoft.com/credentials/applied-skills/build-natural-language-solution-azure-ai/",
+    "url": "https://learn.microsoft.com/credentials/applied-skills/build-natural-language-solution-azure-ai/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI",
     "product": "Language"
   },
   {
     "type": "Credential",
     "title": "Create an intelligent document processing solution with Azure AI Document Intelligence",
-    "url": "https://learn.microsoft.com/credentials/applied-skills/create-intelligent-document-solution-azure-ai/",
+    "url": "https://learn.microsoft.com/credentials/applied-skills/create-intelligent-document-solution-azure-ai/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI"
   },
   {
     "type": "Credential",
     "title": "Build an Azure AI Vision solution",
-    "url": "https://learn.microsoft.com/credentials/applied-skills/applied-skills/build-azure-ai-vision-solution/",
+    "url": "https://learn.microsoft.com/credentials/applied-skills/applied-skills/build-azure-ai-vision-solution/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI"
   },
   {
     "type": "Credential",
     "title": "Develop an ASP.NET Core web app that consumes an API applied skills challenge",
-    "url": "https://learn.microsoft.com/credentials/applied-skills/develop-an-aspnet-core-web-app-that-consumes-an-api/",
+    "url": "https://learn.microsoft.com/credentials/applied-skills/develop-an-aspnet-core-web-app-that-consumes-an-api/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "Web"
   },
   {
     "type": "Documentation",
     "title": "OpenAI Service documentation",
-    "url": "https://learn.microsoft.com/azure/ai-services/openai/",
+    "url": "https://learn.microsoft.com/azure/ai-services/openai/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI"
   },
   {
     "type": "Documentation",
     "title": "Speech service documentation",
-    "url": "https://learn.microsoft.com/azure/ai-services/speech-service/",
+    "url": "https://learn.microsoft.com/azure/ai-services/speech-service/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI"
   },
   {
     "type": "Documentation",
     "title": "Language service documentation",
-    "url": "https://learn.microsoft.com/azure/ai-services/language-service/",
+    "url": "https://learn.microsoft.com/azure/ai-services/language-service/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI",
     "product": "Language"
   },
   {
     "type": "Documentation",
     "title": "Translator documentation",
-    "url": "https://learn.microsoft.com/azure/ai-services/translator/",
+    "url": "https://learn.microsoft.com/azure/ai-services/translator/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI"
   },
   {
     "type": "Documentation",
     "title": "Computer vision documentation",
-    "url": "https://learn.microsoft.com/azure/ai-services/computer-vision/",
+    "url": "https://learn.microsoft.com/azure/ai-services/computer-vision/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI",
     "product": "Computer vision"
   },
   {
     "type": "Documentation",
     "title": "Custom vision documentation",
-    "url": "https://learn.microsoft.com/azure/ai-services/custom-vision-service/",
+    "url": "https://learn.microsoft.com/azure/ai-services/custom-vision-service/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI",
     "product": "Custom vision"
   },
   {
     "type": "Documentation",
     "title": "Content safety documentation",
-    "url": "https://learn.microsoft.com/azure/ai-services/content-safety/",
+    "url": "https://learn.microsoft.com/azure/ai-services/content-safety/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI"
   },
   {
     "type": "Documentation",
     "title": "Bot framework composer documentation",
-    "url": "https://learn.microsoft.com/composer/",
+    "url": "https://learn.microsoft.com/composer/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI"
   },
   {
     "type": "Documentation",
     "title": "Document intelligence documentation",
-    "url": "https://learn.microsoft.com/azure/ai-services/document-intelligence/",
+    "url": "https://learn.microsoft.com/azure/ai-services/document-intelligence/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI"
   },
   {
@@ -124,112 +124,112 @@
   {
     "type": "Documentation",
     "title": "Video indexer documentation",
-    "url": "https://learn.microsoft.com/azure/azure-video-indexer/",
+    "url": "https://learn.microsoft.com/azure/azure-video-indexer/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI"
   },
   {
     "type": "Architecture",
     "title": "Web applications architecture design",
-    "url": "https://learn.microsoft.com/azure/architecture/web-apps/",
+    "url": "https://learn.microsoft.com/azure/architecture/web-apps/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "Web"
   },
   {
     "type":"Credential",
     "title":"Exam AZ-900: Microsoft Azure Fundamentals",
-    "url":"https://learn.microsoft.com/credentials/certifications/exams/az-900/",
+    "url":"https://learn.microsoft.com/credentials/certifications/exams/az-900/?wt.mc_id=mslearn_link_webpage_cnl",
     "category":"Azure"
   },
   {
     "type":"Credential",
     "title":"Exam AI-900: Microsoft Azure AI Fundamentals",
-    "url":"https://learn.microsoft.com/credentials/certifications/exams/ai-900/",
+    "url":"https://learn.microsoft.com/credentials/certifications/exams/ai-900/?wt.mc_id=mslearn_link_webpage_cnl",
     "category":"AI"
   },
   {
     "type":"Credential",
     "title":"Exam AI-102: Designing and Implementing a Microsoft Azure AI Solution",
-    "url":"https://learn.microsoft.com/credentials/certifications/exams/ai-102/",
+    "url":"https://learn.microsoft.com/credentials/certifications/exams/ai-102/?wt.mc_id=mslearn_link_webpage_cnl",
     "category":"AI"
   },
   {
     "type": "Training",
     "title": "Get started with Azure AI Services",
-    "url": "https://learn.microsoft.com/training/paths/get-started-azure-ai/",
+    "url": "https://learn.microsoft.com/training/paths/get-started-azure-ai/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI"
   },
   {
     "type": "Training",
     "title": "Develop decision support solutions with Azure AI Services",
-    "url": "https://learn.microsoft.com/training/paths/develop-decision-support/",
+    "url": "https://learn.microsoft.com/training/paths/develop-decision-support/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI"
   },
   {
     "type": "Training",
     "title": "Create computer vision solutions with Azure AI Vision",
-    "url": "https://learn.microsoft.com/en-us/training/paths/create-computer-vision-solutions-azure-ai/",
+    "url": "https://learn.microsoft.com/en-us/training/paths/create-computer-vision-solutions-azure-ai/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI"
   },
   {
     "type": "Training",
     "title": "Develop natural language processing solutions with Azure AI Services",
-    "url": "https://learn.microsoft.com/training/paths/develop-language-solutions-azure-ai/",
+    "url": "https://learn.microsoft.com/training/paths/develop-language-solutions-azure-ai/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI"
   },
   {
     "type": "Training",
     "title": "Implement knowledge mining with Azure Cognitive Search",
-    "url": "https://learn.microsoft.com/training/paths/implement-knowledge-mining-azure-cognitive-search/",
+    "url": "https://learn.microsoft.com/training/paths/implement-knowledge-mining-azure-cognitive-search/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI"
   },
   {
     "type": "Training",
     "title": "Develop solutions with Azure AI Document Intelligence",
-    "url": "https://learn.microsoft.com/training/paths/extract-data-from-forms-document-intelligence/",
+    "url": "https://learn.microsoft.com/training/paths/extract-data-from-forms-document-intelligence/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI"
   },
   {
     "type": "Training",
     "title": "Develop Generative AI solutions with Azure OpenAI Service",
-    "url": "https://learn.microsoft.com/training/paths/develop-ai-solutions-azure-openai/",
+    "url": "https://learn.microsoft.com/training/paths/develop-ai-solutions-azure-openai/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI"
   },
   {
     "type": "Documentation",
     "title": "Kubernetes service documentation",
-    "url": "https://learn.microsoft.com/azure/aks/",
+    "url": "https://learn.microsoft.com/azure/aks/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "Cloud native",
     "product": "Kubernetes service"
   },
   {
     "type": "Documentation",
     "title": "Container apps documentation",
-    "url": "https://learn.microsoft.com/azure/container-apps/",
+    "url": "https://learn.microsoft.com/azure/container-apps/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "Cloud native",
     "product": "Container apps"
   },
   {
     "type": "Documentation",
     "title": "Functions documentation",
-    "url": "https://learn.microsoft.com/azure/azure-functions/",
+    "url": "https://learn.microsoft.com/azure/azure-functions/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "Cloud native",
     "product": "Functions"
   },
   {
     "type": "Documentation",
     "title": "Virtual machines documentation",
-    "url": "https://learn.microsoft.com/azure/virtual-machines/",
+    "url": "https://learn.microsoft.com/azure/virtual-machines/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "Infrastructure"
   },
   {
     "type": "Documentation",
     "title": "Virtual machine scale sets documentation",
-    "url": "https://learn.microsoft.com/azure/virtual-machine-scale-sets/",
+    "url": "https://learn.microsoft.com/azure/virtual-machine-scale-sets/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "Infrastructure"
   },
   {
     "type": "Documentation",
     "title": "Container instances documentation",
-    "url": "https://learn.microsoft.com/azure/container-instances/",
+    "url": "https://learn.microsoft.com/azure/container-instances/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "Cloud native",
     "product": "Container instances"
   },
@@ -262,55 +262,59 @@
   {
     "type": "Shows",
     "title": "Azure Friday",
-    "url": "https://learn.microsoft.com/shows/azure-friday/",
+    "url": "https://learn.microsoft.com/shows/azure-friday/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "Web, Cloud native, AI"
   },
   {
     "type": "Shows",
     "title": "Learn Live",
-    "url": "https://learn.microsoft.com/shows/learn-live/",
+    "url": "https://learn.microsoft.com/shows/learn-live/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "Web, Cloud native, AI"
   },
   {
     "type": "Shows",
     "title": "AI Show",
-    "url": "https://learn.microsoft.com/shows/ai-show/",
+    "url": "https://learn.microsoft.com/shows/ai-show/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI"
   },
   {
     "type": "Shows",
     "title": "Open at Microsoft",
-    "url": "https://learn.microsoft.com/shows/open-at-microsoft/",
+    "url": "https://learn.microsoft.com/shows/open-at-microsoft/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "Cloud native"
   },
   {
     "type": "Documentation",
     "title": "Contributor home",
-    "url": "https://learn.microsoft.com/contribute/",
+    "url": "https://learn.microsoft.com/contribute/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": ""
   },
   {
     "type": "Training",
     "title": "Python for beginners learning path",
-    "url": "https://learn.microsoft.com/training/paths/beginner-python/",
-    "category": "Python"
+    "url": "https://learn.microsoft.com/training/paths/beginner-python/?wt.mc_id=mslearn_link_webpage_cnl",
+    "category": "Python",
+    "product": "Python"
   },
   {
     "type": "Hub",
     "title": "Python at Microsoft",
-    "url": "https://learn.microsoft.com/python/",
-    "category": "Python"
+    "url": "https://learn.microsoft.com/python/?wt.mc_id=mslearn_link_webpage_cnl",
+    "category": "Python",
+    "product": "Python"
   },
   {
     "type": "Documentation",
     "title": "Azure for Python developers",
-    "url": "https://learn.microsoft.com/azure/developer/python/",
-    "category": "Python"
+    "url": "https://learn.microsoft.com/azure/developer/python/?wt.mc_id=mslearn_link_webpage_cnl",
+    "category": "Python",
+    "product": "Python"
   },
   {
     "type": "Shows",
     "title": "Python for beginners",
-    "url": "https://learn.microsoft.com/shows/intro-to-python-development/",
-    "category": "Python"
+    "url": "https://learn.microsoft.com/shows/intro-to-python-development/?wt.mc_id=mslearn_link_webpage_cnl",
+    "category": "Python",
+    "product": "Python"
   }
 ]
