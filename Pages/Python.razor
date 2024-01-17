@@ -1,12 +1,11 @@
-﻿@page "/cloudnative"
+﻿@page "/python"
 @inject HttpClient Http
 <!-- @using Microsoft.AspNetCore.Components.QuickGrid -->
 @using BlazorApplicationInsights
 @using BlazorApplicationInsights.Interfaces
 @using BlazorApplicationInsights.Models
 
-
-<h1>Find your cloud native link</h1>
+<h1>Find your Python link</h1>
 
 <p>What link are you looking for?</p>
 
@@ -43,13 +42,14 @@ else
     private Link[]? links;
 
     public string SearchText = "";
-    public string category = "Cloud native";
+    public string category = "Python";
 
     protected override async Task OnInitializedAsync()
     {
         links = await Http.GetFromJsonAsync<Link[]>("data/links.json");
-        await AppInsights.TrackEvent(new EventTelemetry() { Name = "CloudNative initialized" });
+        await AppInsights.TrackEvent(new EventTelemetry() { Name = "Python initialized" });
     }
     Link[]? filteredlinks => links?.Where(
         f => f.Title.Contains(SearchText, StringComparison.OrdinalIgnoreCase) && f.Category.Contains(category, StringComparison.OrdinalIgnoreCase)).ToArray();
+
 }

@@ -288,5 +288,29 @@
     "title": "Contributor home",
     "url": "https://learn.microsoft.com/contribute/",
     "category": ""
+  },
+  {
+    "type": "Training",
+    "title": "Python for beginners learning path",
+    "url": "https://learn.microsoft.com/training/paths/beginner-python/",
+    "category": "Python"
+  },
+  {
+    "type": "Hub",
+    "title": "Python at Microsoft",
+    "url": "https://learn.microsoft.com/python/",
+    "category": "Python"
+  },
+  {
+    "type": "Documentation",
+    "title": "Azure for Python developers",
+    "url": "https://learn.microsoft.com/azure/developer/python/",
+    "category": "Python"
+  },
+  {
+    "type": "Shows",
+    "title": "Python for beginners",
+    "url": "https://learn.microsoft.com/shows/intro-to-python-development/",
+    "category": "Python"
   }
 ]
