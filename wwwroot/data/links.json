@@ -323,5 +323,17 @@
     "url":"https://learn.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-python",
     "category":"Python",
     "product":"Storage"
+  },
+  {
+    "type":"Repository",
+    "title":"Artificial Intelligence for Beginners",
+    "url":"https://microsoft.github.io/AI-For-Beginners/",
+    "category":"AI"
+  },
+  {
+    "type":"Repository",
+    "title":"Generative AI for Beginners",
+    "url":"https://github.com/microsoft/generative-ai-for-beginners",
+    "category":"AI"
   }
 ]
