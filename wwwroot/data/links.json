@@ -153,43 +153,43 @@
   },
   {
     "type": "Training",
-    "title": "Get started with Azure AI Services",
+    "title": "Get started with Azure AI Services learning path",
     "url": "https://learn.microsoft.com/training/paths/get-started-azure-ai/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI"
   },
   {
     "type": "Training",
-    "title": "Develop decision support solutions with Azure AI Services",
+    "title": "Develop decision support solutions with Azure AI Services learning path",
     "url": "https://learn.microsoft.com/training/paths/develop-decision-support/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI"
   },
   {
     "type": "Training",
-    "title": "Create computer vision solutions with Azure AI Vision",
+    "title": "Create computer vision solutions with Azure AI Vision learning path",
     "url": "https://learn.microsoft.com/en-us/training/paths/create-computer-vision-solutions-azure-ai/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI"
   },
   {
     "type": "Training",
-    "title": "Develop natural language processing solutions with Azure AI Services",
+    "title": "Develop natural language processing solutions with Azure AI Services learning path",
     "url": "https://learn.microsoft.com/training/paths/develop-language-solutions-azure-ai/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI"
   },
   {
     "type": "Training",
-    "title": "Implement knowledge mining with Azure Cognitive Search",
+    "title": "Implement knowledge mining with Azure Cognitive Search learning path",
     "url": "https://learn.microsoft.com/training/paths/implement-knowledge-mining-azure-cognitive-search/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI"
   },
   {
     "type": "Training",
-    "title": "Develop solutions with Azure AI Document Intelligence",
+    "title": "Develop solutions with Azure AI Document Intelligence learning path",
     "url": "https://learn.microsoft.com/training/paths/extract-data-from-forms-document-intelligence/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI"
   },
   {
     "type": "Training",
-    "title": "Develop Generative AI solutions with Azure OpenAI Service",
+    "title": "Develop Generative AI solutions with Azure OpenAI Service learning path",
     "url": "https://learn.microsoft.com/training/paths/develop-ai-solutions-azure-openai/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI"
   },
@@ -261,13 +261,13 @@
   },
   {
     "type": "Shows",
-    "title": "Azure Friday",
+    "title": "Azure Friday show",
     "url": "https://learn.microsoft.com/shows/azure-friday/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "Web, Cloud native, AI"
   },
   {
     "type": "Shows",
-    "title": "Learn Live",
+    "title": "Learn Live show",
     "url": "https://learn.microsoft.com/shows/learn-live/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "Web, Cloud native, AI"
   },
@@ -279,7 +279,7 @@
   },
   {
     "type": "Shows",
-    "title": "Open at Microsoft",
+    "title": "Open at Microsoft show",
     "url": "https://learn.microsoft.com/shows/open-at-microsoft/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "Cloud native"
   },
@@ -298,23 +298,30 @@
   },
   {
     "type": "Hub",
-    "title": "Python at Microsoft",
+    "title": "Python at Microsoft hub",
     "url": "https://learn.microsoft.com/python/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "Python",
     "product": "Python"
   },
   {
     "type": "Documentation",
-    "title": "Azure for Python developers",
+    "title": "Azure for Python developers documentation",
     "url": "https://learn.microsoft.com/azure/developer/python/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "Python",
     "product": "Python"
   },
   {
     "type": "Shows",
-    "title": "Python for beginners",
+    "title": "Python for beginners show",
     "url": "https://learn.microsoft.com/shows/intro-to-python-development/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "Python",
     "product": "Python"
+  },
+  {
+    "type":"Documentation",
+    "title":"Azure Blob Storage client library for Python documentation",
+    "url":"https://learn.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-python",
+    "category":"Python",
+    "product":"Storage"
   }
 ]
