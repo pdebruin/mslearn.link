@@ -335,5 +335,17 @@
     "title":"Generative AI for Beginners",
     "url":"https://github.com/microsoft/generative-ai-for-beginners",
     "category":"AI"
+  },
+  {
+    "type":"Repository",
+    "title":"Machine Learning for Beginners",
+    "url":"https://github.com/microsoft/ML-ai-for-beginners",
+    "category":"AI"
+  },
+  {
+    "type":"Repository",
+    "title":"Data Science for Beginners",
+    "url":"https://github.com/microsoft/Data-Science-For-Beginners",
+    "category":"AI"
   }
 ]
