@@ -1,0 +1,61 @@
+﻿@page "/old"
+@inject HttpClient Http
+<!-- @using Microsoft.AspNetCore.Components.QuickGrid -->
+@using BlazorApplicationInsights
+@using BlazorApplicationInsights.Interfaces
+@using BlazorApplicationInsights.Models
+
+<h1>Find your MS Learn link</h1>
+
+<p>What link are you looking for?</p>
+
+@if (links == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <div >
+        <input @bind-value="SearchText" @bind-value:event="oninput" placeholder="Search" />
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Title</th>
+                <th>URL</th>
+                <th>Type</th>
+                <th>Category</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var link in filteredlinks)
+            {
+                <tr>
+                    <td><img height="30" width="30" src="@link.Image" /></td>
+                    <td>@link.Title</td>
+                    <td><a href="@link.Url" target="_blank">@link.Url</a></td>
+                    <td>@link.Type</td>
+                    <td>@link.Category</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    
+    [Inject] private IApplicationInsights AppInsights { get; set; }
+    private Link[]? links;
+
+    public string SearchText = "";
+
+    protected override async Task OnInitializedAsync()
+    {
+        links = await Http.GetFromJsonAsync<Link[]>("data/links.json");
+        await AppInsights.TrackEvent(new EventTelemetry() { Name = "Grid initialized" });
+    }
+
+    Link[]? filteredlinks => links?.Where(
+        f => f.Title?.Contains(SearchText, StringComparison.OrdinalIgnoreCase) ?? false).ToArray();
+}

@@ -118,7 +118,7 @@
   {
     "type": "Documentation",
     "title": "Search service documentation",
-    "url": "https://learn.microsoft.com/azure/search",
+    "url": "https://learn.microsoft.com/azure/search?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI"
   },
   {
@@ -236,26 +236,26 @@
   {
     "type": "Q&A",
     "title": "AI services answers",
-    "url": "https://learn.microsoft.com/answers/tags/441/ai-services",
+    "url": "https://learn.microsoft.com/answers/tags/441/ai-services?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI"
   },
   {
     "type": "Q&A",
     "title": "OpenAI service answers",
-    "url": "https://learn.microsoft.com/answers/tags/387/azure-openai",
+    "url": "https://learn.microsoft.com/answers/tags/387/azure-openai?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI"
   },
   {
     "type": "Q&A",
     "title": "App service answers",
-    "url": "https://learn.microsoft.com/answers/tags/436/azure-app-service",
+    "url": "https://learn.microsoft.com/answers/tags/436/azure-app-service?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "Web, Cloud native",
     "product": "App service"
   },
   {
     "type": "Q&A",
     "title": "Functions answers",
-    "url": "https://learn.microsoft.com/answers/tags/87/azure-functions",
+    "url": "https://learn.microsoft.com/answers/tags/87/azure-functions?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "Web, Cloud native",
     "product": "Functions"
   },
@@ -320,32 +320,38 @@
   {
     "type":"Documentation",
     "title":"Azure Blob Storage client library for Python documentation",
-    "url":"https://learn.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-python",
+    "url":"https://learn.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-python?wt.mc_id=mslearn_link_webpage_cnl",
     "category":"Python",
     "product":"Storage"
   },
   {
     "type":"Repository",
     "title":"Artificial Intelligence for Beginners",
-    "url":"https://microsoft.github.io/AI-For-Beginners/",
+    "url":"https://microsoft.github.io/AI-For-Beginners/?wt.mc_id=mslearn_link_webpage_cnl",
     "category":"AI"
   },
   {
     "type":"Repository",
     "title":"Generative AI for Beginners",
-    "url":"https://github.com/microsoft/generative-ai-for-beginners",
+    "url":"https://github.com/microsoft/generative-ai-for-beginners?wt.mc_id=mslearn_link_webpage_cnl",
     "category":"AI"
   },
   {
     "type":"Repository",
     "title":"Machine Learning for Beginners",
-    "url":"https://github.com/microsoft/ML-ai-for-beginners",
+    "url":"https://github.com/microsoft/ML-ai-for-beginners?wt.mc_id=mslearn_link_webpage_cnl",
     "category":"AI"
   },
   {
     "type":"Repository",
     "title":"Data Science for Beginners",
-    "url":"https://github.com/microsoft/Data-Science-For-Beginners",
+    "url":"https://github.com/microsoft/Data-Science-For-Beginners?wt.mc_id=mslearn_link_webpage_cnl",
     "category":"AI"
+  },
+  {
+    "type":"Credential",
+    "title":"All exams",
+    "url":"https://learn.microsoft.com/credentials/browse/?credential_types=certification&expanded=azure&products=azure&wt.mc_id=mslearn_link_webpage_cnl",
+    "category":"Azure"
   }
 ]
