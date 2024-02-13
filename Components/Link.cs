@@ -50,6 +50,9 @@ public class Link
                 case "Python":
                     result = "./images/python.jpg";
                     break;
+                case "OpenAI":
+                    result = "./images/openai.jpg";
+                    break;
                 default:
                     result = "link-45deg.svg";
                     break;

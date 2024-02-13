@@ -62,7 +62,8 @@
     "type": "Documentation",
     "title": "OpenAI Service documentation",
     "url": "https://learn.microsoft.com/azure/ai-services/openai/?wt.mc_id=mslearn_link_webpage_cnl",
-    "category": "AI"
+    "category": "AI",
+    "product": "OpenAI"
   },
   {
     "type": "Documentation",
@@ -134,22 +135,22 @@
     "category": "Web"
   },
   {
-    "type":"Credential",
-    "title":"Exam AZ-900: Microsoft Azure Fundamentals",
-    "url":"https://learn.microsoft.com/credentials/certifications/exams/az-900/?wt.mc_id=mslearn_link_webpage_cnl",
-    "category":"Azure"
+    "type": "Credential",
+    "title": "Exam AZ-900: Microsoft Azure Fundamentals",
+    "url": "https://learn.microsoft.com/credentials/certifications/exams/az-900/?wt.mc_id=mslearn_link_webpage_cnl",
+    "category": "Azure"
   },
   {
-    "type":"Credential",
-    "title":"Exam AI-900: Microsoft Azure AI Fundamentals",
-    "url":"https://learn.microsoft.com/credentials/certifications/exams/ai-900/?wt.mc_id=mslearn_link_webpage_cnl",
-    "category":"AI"
+    "type": "Credential",
+    "title": "Exam AI-900: Microsoft Azure AI Fundamentals",
+    "url": "https://learn.microsoft.com/credentials/certifications/exams/ai-900/?wt.mc_id=mslearn_link_webpage_cnl",
+    "category": "AI"
   },
   {
-    "type":"Credential",
-    "title":"Exam AI-102: Designing and Implementing a Microsoft Azure AI Solution",
-    "url":"https://learn.microsoft.com/credentials/certifications/exams/ai-102/?wt.mc_id=mslearn_link_webpage_cnl",
-    "category":"AI"
+    "type": "Credential",
+    "title": "Exam AI-102: Designing and Implementing a Microsoft Azure AI Solution",
+    "url": "https://learn.microsoft.com/credentials/certifications/exams/ai-102/?wt.mc_id=mslearn_link_webpage_cnl",
+    "category": "AI"
   },
   {
     "type": "Training",
@@ -191,7 +192,8 @@
     "type": "Training",
     "title": "Develop Generative AI solutions with Azure OpenAI Service learning path",
     "url": "https://learn.microsoft.com/training/paths/develop-ai-solutions-azure-openai/?wt.mc_id=mslearn_link_webpage_cnl",
-    "category": "AI"
+    "category": "AI",
+    "product": "OpenAI"
   },
   {
     "type": "Documentation",
@@ -243,7 +245,8 @@
     "type": "Q&A",
     "title": "OpenAI service answers",
     "url": "https://learn.microsoft.com/answers/tags/387/azure-openai?wt.mc_id=mslearn_link_webpage_cnl",
-    "category": "AI"
+    "category": "AI",
+    "product": "OpenAI"
   },
   {
     "type": "Q&A",
@@ -353,5 +356,27 @@
     "title":"All exams",
     "url":"https://learn.microsoft.com/credentials/browse/?credential_types=certification&expanded=azure&products=azure&wt.mc_id=mslearn_link_webpage_cnl",
     "category":"Azure"
-  }
+  },
+  {
+    "type":"Architecture",
+    "title":"Containers reference architectures",
+    "url":"https://learn.microsoft.com/azure/architecture/reference-architectures/containers/aks-start-here?wt.mc_id=mslearn_link_webpage_cnl",
+    "category": "Cloud native"
+ },
+ {
+    "type":"Architecture",
+    "title":"AI + Machine Learning reference architectures",
+    "url":"https://learn.microsoft.com/azure/architecture/ai-ml/?wt.mc_id=mslearn_link_webpage_cnl",
+    "category": "AI"
+ },
+ {
+  "type":"Cloud skills challenge",
+  "title":"Generative AI with Azure OpenAI cloud skills challenge",
+  "url":"https://learn.microsoft.com/training/challenges?id=973cdaf5-ce82-4541-940e-d6ecd90a5000?wt.mc_id=mslearn_link_webpage_cnl",
+  "category": "AI",
+  "product": "OpenAI"
+}
+
+
+ 
 ]
