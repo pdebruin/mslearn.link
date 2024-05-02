@@ -482,3 +482,5 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+.mono/registry/CurrentUser/software/microsoft/csdevkit/v1/pids/3657_133555666377939247/values.xml
+.mono/registry/CurrentUser/software/microsoft/csdevkit/v1/pids/7568_133591065279121259/values.xml
