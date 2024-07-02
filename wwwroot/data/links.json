@@ -166,6 +166,30 @@
   },
   {
     "type": "Training",
+    "title": "Learn the basics of Azure: AI Fundamentals plan",
+    "url": "https://learn.microsoft.com/plans/5m3sokzk2e383?wt.mc_id=mslearn_link_webpage_cnl",
+    "category": "AI"
+  },
+  {
+    "type": "Training",
+    "title": "Build cutting-edge, market-ready, responsible applications for your organization with AI plan",
+    "url": "https://learn.microsoft.com/plans/kwq7c58k3yweoe?wt.mc_id=mslearn_link_webpage_cnl",
+    "category": "AI"
+  },
+  {
+    "type": "Training",
+    "title": "Use AI in your everyday work: GitHub Copilot plan",
+    "url": "https://learn.microsoft.com/plans/8nmuy3ej78k8r?wt.mc_id=mslearn_link_webpage_cnl",
+    "category": "AI"
+  },
+  {
+    "type": "Training",
+    "title": "Build and modernize apps with Azure OpenAI Service plan",
+    "url": "https://learn.microsoft.com/plans/4w1qa24q6e3gne?wt.mc_id=mslearn_link_webpage_cnl",
+    "category": "AI"
+  },
+  {
+    "type": "Training",
     "title": "Develop decision support solutions with Azure AI Services learning path",
     "url": "https://learn.microsoft.com/training/paths/develop-decision-support/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI"
@@ -417,6 +441,12 @@
   "type":"Repository",
   "title":"Prompty repository",
   "url":"https://github.com/Microsoft/prompty/?wt.mc_id=mslearn_link_webpage_cnl",
+  "category":"AI"
+},
+{
+  "type":"Documentation",
+  "title":"GitHub Copilot documentation",
+  "url":"https://docs.github.com/copilot?wt.mc_id=mslearn_link_webpage_cnl",
   "category":"AI"
 },
 {
