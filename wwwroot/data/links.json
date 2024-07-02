@@ -341,25 +341,25 @@
   },
   {
     "type":"Repository",
-    "title":"Artificial Intelligence for Beginners",
+    "title":"Artificial Intelligence for Beginners repository",
     "url":"https://github.com/microsoft/AI-For-Beginners/?wt.mc_id=mslearn_link_webpage_cnl",
     "category":"AI"
   },
   {
     "type":"Repository",
-    "title":"Generative AI for Beginners",
+    "title":"Generative AI for Beginners repository",
     "url":"https://github.com/microsoft/generative-ai-for-beginners?wt.mc_id=mslearn_link_webpage_cnl",
     "category":"AI"
   },
   {
     "type":"Repository",
-    "title":"Machine Learning for Beginners",
+    "title":"Machine Learning for Beginners repository",
     "url":"https://github.com/microsoft/ML-ai-for-beginners?wt.mc_id=mslearn_link_webpage_cnl",
     "category":"AI"
   },
   {
     "type":"Repository",
-    "title":"Data Science for Beginners",
+    "title":"Data Science for Beginners repository",
     "url":"https://github.com/microsoft/Data-Science-For-Beginners?wt.mc_id=mslearn_link_webpage_cnl",
     "category":"AI"
   },
@@ -403,8 +403,20 @@
 },
 {
   "type":"Repository",
-  "title":"Azure AI Templates with Azure Developer CLI",
+  "title":"Azure AI Templates with Azure Developer CLI collection",
   "url":"https://learn.microsoft.com/collections/5pq0uompdgje8d?wt.mc_id=mslearn_link_webpage_cnl",
+  "category":"AI"
+},
+{
+  "type":"Repository",
+  "title":"Prompt flow repository",
+  "url":"https://github.com/microsoft/promptflow?wt.mc_id=mslearn_link_webpage_cnl",
+  "category":"AI"
+},
+{
+  "type":"Repository",
+  "title":"Prompty repository",
+  "url":"https://github.com/Microsoft/prompty/?wt.mc_id=mslearn_link_webpage_cnl",
   "category":"AI"
 },
 {
