@@ -342,7 +342,7 @@
   {
     "type":"Repository",
     "title":"Artificial Intelligence for Beginners",
-    "url":"https://microsoft.github.io/AI-For-Beginners/?wt.mc_id=mslearn_link_webpage_cnl",
+    "url":"https://github.com/microsoft/AI-For-Beginners/?wt.mc_id=mslearn_link_webpage_cnl",
     "category":"AI"
   },
   {
@@ -391,20 +391,26 @@
 {
   "type":"Cloud skills challenge",
   "title":"Azure AI Document Intelligence cloud skills challenge",
-  "url":"https://learn.microsoft.com/en-us/training/challenges?id=cf17d512-119a-4011-a5d2-9277392240ba&wt.mc_id=mslearn_link_webpage_cnl",
+  "url":"https://learn.microsoft.com/training/challenges?id=cf17d512-119a-4011-a5d2-9277392240ba&wt.mc_id=mslearn_link_webpage_cnl",
   "category": "AI",
   "product": "Document Intelligence"
 },
 {
   "type":"Cloud skills challenge",
   "title":"Azure AI Engineer cloud skills challenge",
-  "url":"https://learn.microsoft.com/en-us/training/challenges?id=045dddda-f6f3-4077-8072-7d5b157b3849&wt.mc_id=mslearn_link_webpage_cnl",
+  "url":"https://learn.microsoft.com/training/challenges?id=045dddda-f6f3-4077-8072-7d5b157b3849&wt.mc_id=mslearn_link_webpage_cnl",
   "category": "AI"
+},
+{
+  "type":"Repository",
+  "title":"Azure AI Templates with Azure Developer CLI",
+  "url":"https://learn.microsoft.com/collections/5pq0uompdgje8d?wt.mc_id=mslearn_link_webpage_cnl",
+  "category":"AI"
 },
 {
   "type":"Cloud skills challenge",
   "title":"Azure AI Language cloud skills challenge",
-  "url":"https://learn.microsoft.com/en-us/training/challenges?id=71f97943-b055-4f18-91ed-57e50a23a8ac&wt.mc_id=mslearn_link_webpage_cnl",
+  "url":"https://learn.microsoft.com/training/challenges?id=71f97943-b055-4f18-91ed-57e50a23a8ac&wt.mc_id=mslearn_link_webpage_cnl",
   "category": "AI",
   "product": "Language"
 }
