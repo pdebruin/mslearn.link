@@ -35,21 +35,39 @@
   },
   {
     "type": "Credential",
-    "title": "Build a natural language processing solution with Azure AI Language",
+    "title": "Build a natural language processing solution with Azure AI Language applied skills challenge",
     "url": "https://learn.microsoft.com/credentials/applied-skills/build-natural-language-solution-azure-ai/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI",
     "product": "Language"
   },
   {
     "type": "Credential",
-    "title": "Create an intelligent document processing solution with Azure AI Document Intelligence",
+    "title": "Create an intelligent document processing solution with Azure AI Document Intelligence applied skills challenge",
     "url": "https://learn.microsoft.com/credentials/applied-skills/create-intelligent-document-solution-azure-ai/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI"
   },
   {
     "type": "Credential",
-    "title": "Build an Azure AI Vision solution",
-    "url": "https://learn.microsoft.com/credentials/applied-skills/applied-skills/build-azure-ai-vision-solution/?wt.mc_id=mslearn_link_webpage_cnl",
+    "title": "Build an Azure AI Vision solution applied skills challenge",
+    "url": "https://learn.microsoft.com/credentials/applied-skills/build-azure-ai-vision-solution/?wt.mc_id=mslearn_link_webpage_cnl",
+    "category": "AI"
+  },
+  {
+    "type": "Credential",
+    "title": "Develop generative AI solutions with Azure OpenAI Service applied skills challenge",
+    "url": "https://learn.microsoft.com/credentials/applied-skills/develop-generative-ai-solutions-with-azure-openai-service/?wt.mc_id=mslearn_link_webpage_cnl",
+    "category": "AI"
+  },
+  {
+    "type": "Credential",
+    "title": "Develop AI agents using Microsoft Azure OpenAI and Semantic Kernel applied skills challenge",
+    "url": "https://learn.microsoft.com/credentials/applied-skills/develop-ai-agents-using-microsoft-azure-openai-and-semantic-kernel/?wt.mc_id=mslearn_link_webpage_cnl",
+    "category": "AI"
+  },
+  {
+    "type": "Credential",
+    "title": "Train and manage a machine learning model with Azure Machine Learning applied skills challenge",
+    "url": "https://learn.microsoft.com/credentials/applied-skills/train-and-deploy-a-machine-learning-model-with-azure-machine-learning/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI"
   },
   {
