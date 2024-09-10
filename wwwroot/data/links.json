@@ -215,7 +215,7 @@
   {
     "type": "Training",
     "title": "Create computer vision solutions with Azure AI Vision learning path",
-    "url": "https://learn.microsoft.com/en-us/training/paths/create-computer-vision-solutions-azure-ai/?wt.mc_id=mslearn_link_webpage_cnl",
+    "url": "https://learn.microsoft.com/training/paths/create-computer-vision-solutions-azure-ai/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI"
   },
   {
@@ -444,9 +444,27 @@
   "category": "AI"
 },
 {
-  "type":"Repository",
+  "type":"Collection",
   "title":"Azure AI Templates with Azure Developer CLI collection",
   "url":"https://learn.microsoft.com/collections/5pq0uompdgje8d?wt.mc_id=mslearn_link_webpage_cnl",
+  "category":"AI"
+},
+{
+  "type":"Collection",
+  "title":"AI for Startups: Beginner collection",
+  "url":"https://learn.microsoft.com/collections/m6w8bmrgkm4w18?wt.mc_id=mslearn_link_webpage_cnl",
+  "category":"AI"
+},
+{
+  "type":"Collection",
+  "title":"AI for Startups: Intermediate collection",
+  "url":"https://learn.microsoft.com/collections/w7o6cjxk34w2xg?wt.mc_id=mslearn_link_webpage_cnl",
+  "category":"AI"
+},
+{
+  "type":"Collection",
+  "title":"AI for Startups: Advanced collection",
+  "url":"https://learn.microsoft.com/collections/8ozrsyqm1e8noe?wt.mc_id=mslearn_link_webpage_cnl",
   "category":"AI"
 },
 {
