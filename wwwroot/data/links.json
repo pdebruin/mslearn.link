@@ -250,6 +250,54 @@
     "product": "OpenAI"
   },
   {
+    "type": "Training",
+    "title": "AI for educators learning path",
+    "url": "https://learn.microsoft.com/training/paths/ai-education/?wt.mc_id=mslearn_link_webpage_cnl",
+    "category": "AI"
+  },
+  {
+    "type": "Training",
+    "title": "Explore and configure the Azure Machine Learning workspace learning path",
+    "url": "https://learn.microsoft.com/training/paths/explore-azure-machine-learning-workspace/?wt.mc_id=mslearn_link_webpage_cnl",
+    "category": "AI",
+    "product": "Azure Machine Learning"
+  },
+  {
+    "type": "Training",
+    "title": "Work with data in Azure Machine Learning learning path",
+    "url": "https://learn.microsoft.com/training/paths/work-data-azure-machine-learning/?wt.mc_id=mslearn_link_webpage_cnl",
+    "category": "AI",
+    "product": "Azure Machine Learning"
+  },
+  {
+    "type": "Training",
+    "title": "Experiment with Azure Machine Learning learning path",
+    "url": "https://learn.microsoft.com/training/paths/automate-machine-learning-model-selection-azure-machine-learning/?wt.mc_id=mslearn_link_webpage_cnl",
+    "category": "AI",
+    "product": "Azure Machine Learning"
+  },
+  {
+    "type": "Training",
+    "title": "Train models with scripts in Azure Machine Learning learning path",
+    "url": "https://learn.microsoft.com/training/paths/train-models-scripts-azure-machine-learning/?wt.mc_id=mslearn_link_webpage_cnl",
+    "category": "AI",
+    "product": "Azure Machine Learning"
+  },
+  {
+    "type": "Training",
+    "title": "Deploy and consume models with Azure Machine Learning learning path",
+    "url": "https://learn.microsoft.com/training/paths/deploy-consume-models-azure-machine-learning/?wt.mc_id=mslearn_link_webpage_cnl",
+    "category": "AI",
+    "product": "Azure Machine Learning"
+  },
+  {
+    "type": "Training",
+    "title": "Optimize model training with Azure Machine Learning learning path",
+    "url": "https://learn.microsoft.com/training/paths/use-azure-machine-learning-pipelines-for-automation/?wt.mc_id=mslearn_link_webpage_cnl",
+    "category": "AI",
+    "product": "Azure Machine Learning"
+  },
+  {
     "type": "Documentation",
     "title": "Kubernetes service documentation",
     "url": "https://learn.microsoft.com/azure/aks/?wt.mc_id=mslearn_link_webpage_cnl",
