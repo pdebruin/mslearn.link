@@ -471,26 +471,6 @@
     "url":"https://learn.microsoft.com/azure/architecture/ai-ml/?wt.mc_id=mslearn_link_webpage_cnl",
     "category": "AI"
  },
- {
-  "type":"Cloud skills challenge",
-  "title":"Generative AI with Azure OpenAI cloud skills challenge",
-  "url":"https://learn.microsoft.com/training/challenges?id=973cdaf5-ce82-4541-940e-d6ecd90a5000&wt.mc_id=mslearn_link_webpage_cnl",
-  "category": "AI",
-  "product": "OpenAI"
-},
-{
-  "type":"Cloud skills challenge",
-  "title":"Azure AI Document Intelligence cloud skills challenge",
-  "url":"https://learn.microsoft.com/training/challenges?id=cf17d512-119a-4011-a5d2-9277392240ba&wt.mc_id=mslearn_link_webpage_cnl",
-  "category": "AI",
-  "product": "Document Intelligence"
-},
-{
-  "type":"Cloud skills challenge",
-  "title":"Azure AI Engineer cloud skills challenge",
-  "url":"https://learn.microsoft.com/training/challenges?id=045dddda-f6f3-4077-8072-7d5b157b3849&wt.mc_id=mslearn_link_webpage_cnl",
-  "category": "AI"
-},
 {
   "type":"Collection",
   "title":"Azure AI Templates with Azure Developer CLI collection",
@@ -532,12 +512,5 @@
   "title":"GitHub Copilot documentation",
   "url":"https://docs.github.com/copilot?wt.mc_id=mslearn_link_webpage_cnl",
   "category":"AI"
-},
-{
-  "type":"Cloud skills challenge",
-  "title":"Azure AI Language cloud skills challenge",
-  "url":"https://learn.microsoft.com/training/challenges?id=71f97943-b055-4f18-91ed-57e50a23a8ac&wt.mc_id=mslearn_link_webpage_cnl",
-  "category": "AI",
-  "product": "Language"
 }
 ]
