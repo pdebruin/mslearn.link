@@ -1,0 +1,54 @@
+name: Link Validation
+
+on:
+  schedule:
+    # Run weekly on Sundays at 00:00 UTC
+    - cron: '0 0 * * 0'
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  validate-links:
+    runs-on: ubuntu-latest
+    name: Validate Links
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Check links from JSON
+        shell: bash
+        run: |
+          echo "Checking links from wwwroot/data/links.json..."
+          
+          failed_links=""
+          success_count=0
+          fail_count=0
+          
+          # Extract URLs from JSON file and process each line safely
+          while IFS= read -r url; do
+            echo "Checking: $url"
+            
+            # Use curl to check if URL responds with success (2xx or 3xx)
+            http_code=$(curl -s -o /dev/null -w "%{http_code}" -L --max-time 30 -- "$url" 2>/dev/null || echo "000")
+            
+            if [[ "$http_code" =~ ^[23][0-9][0-9]$ ]]; then
+              echo "  ✓ OK ($http_code)"
+              ((success_count++))
+            else
+              echo "  ✗ FAILED ($http_code)"
+              failed_links="$failed_links\n$url (HTTP $http_code)"
+              ((fail_count++))
+            fi
+          done < <(jq -r '.[].url' wwwroot/data/links.json)
+          
+          echo ""
+          echo "================================"
+          echo "Summary: $success_count succeeded, $fail_count failed"
+          echo "================================"
+          
+          if [ $fail_count -gt 0 ]; then
+            echo ""
+            echo "Failed links:"
+            echo -e "$failed_links"
+            exit 1
+          fi
