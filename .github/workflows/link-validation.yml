@@ -71,9 +71,10 @@ jobs:
             const successCount = '${{ steps.check-links.outputs.success_count }}';
             
             const issueTitle = `🔗 Broken Links Detected (${failCount} links)`;
+            const totalLinks = Number(failCount) + Number(successCount);
             const issueBody = `## Link Validation Report
             
-            The automated link validation workflow found **${failCount} broken link(s)** out of ${parseInt(failCount) + parseInt(successCount)} total links.
+            The automated link validation workflow found **${failCount} broken link(s)** out of ${totalLinks} total links.
             
             ### Failed Links
             
