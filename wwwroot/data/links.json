@@ -444,7 +444,7 @@
   {
     "type":"Repository",
     "title":"Machine Learning for Beginners repository",
-    "url":"https://github.com/microsoft/ML-ai-for-beginners?wt.mc_id=mslearn_link_webpage_cnl",
+    "url":"https://github.com/microsoft/ML-for-beginners?wt.mc_id=mslearn_link_webpage_cnl",
     "category":"AI"
   },
   {
@@ -513,4 +513,5 @@
   "url":"https://docs.github.com/copilot?wt.mc_id=mslearn_link_webpage_cnl",
   "category":"AI"
 }
+
 ]
