@@ -512,6 +512,20 @@
   "title":"GitHub Copilot documentation",
   "url":"https://docs.github.com/copilot?wt.mc_id=mslearn_link_webpage_cnl",
   "category":"AI"
+},
+{
+  "type":"Documentation",
+  "title":"Foundry documentation",
+  "url":"https://learn.microsoft.com/azure/ai-foundry?wt.mc_id=mslearn_link_webpage_cnl",
+  "category":"AI",
+  "product":"Foundry"
+},
+{
+  "type":"Training",
+  "title":"Foundry training",
+  "url":"https://learn.microsoft.com/training/azure/ai-foundry?wt.mc_id=mslearn_link_webpage_cnl",
+  "category":"AI",
+  "product":"Foundry"
 }
-
 ]
+
